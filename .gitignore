@@ -1,0 +1,101 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configurations and tasks you actually want to
+# potentially share with your team.  If you'd like to share these, uncomment the
+# next line.
+.vscode/
+
+# Flutter/Dart/Pub-related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Executable built files
+*.apk
+*.aab
+*.exe
+*.jar
+*.pab
+
+# Android related
+**/android/**/generated/
+**/android/app/src/main/res/drawable-*/
+**/android/app/src/main/res/mipmap-*/
+**/android/bundle*/
+**/android/externalNativeBuild/
+**/android/nativeLibs/
+**/android/obj/
+**/android/sdk.dir
+.cxx/
+.externalNativeBuild/
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# iOS related
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Pods/
+**/ios/ServiceDefinitions.json
+**/ios/DerivedData/
+**/ios/.generated/
+**/ios/.last_build_id
+**/ios/*.xcworkspace
+**/ios/*.xcscheme
+**/ios/*.xcconfig
+**/ios/*.lock
+**/ios/*.plist
+**/ios/*.mode1v3
+**/ios/*.mode2v3
+**/ios/*.perspectivev3
+**/ios/*.pbxuser
+**/ios/*.perspective
+**/ios/xcuserdata/
+**/ios/project.xcworkspace/
+**/ios/Config/
+
+# Linux related
+**/linux/flutter/ephemeral/
+**/linux/build/
+
+# macOS related
+**/macos/flutter/ephemeral/
+**/macos/build/
+
+# Windows related
+**/windows/flutter/ephemeral/
+**/windows/build/
+
+# Web related
+**/web/flutter_service_worker.js
+**/web/stacktrace_js/
+
+# Coverage related
+coverage/
